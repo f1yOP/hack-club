@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackclub</title>
+</head>
+
+
+</header>
+<body>
+    <img class="logo-image" src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="">
+    <div class="mainlogo">
+        <h1>Hackclub RIT</h1>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="about">
+        <p>Hack Club is a nonprofit network of high school coding clubs and makers around the world</p>
+    </div>
+
+    <div class="info">
+        <div class="infobox">
+            <!-- <h3>Title</h3> -->
+            <p>
+                A group of students—many beginners—gather to start coding.
+                (that’s you!) presents for a few minutes, getting the group started building something new.
+            </p>
+        </div>
+        <div class="infobox">
+            <!-- <h3>Title</h3> -->
+            <p>
+                Everyone gets hacking, individually.
+                Not hacking bank accounts—being creative & making something awesome with code.
+            </p>
+        </div>
+        <div class="infobox">
+            <!-- <h3>Title</h3> -->
+            <p>
+                To end, everyone demos their work.
+                As a leader, you’re cultivating a community of makers. Each member showing off their work builds momentum & motivation
+            </p>
+        </div>
+    </div>
+   
+</body>
+<footer>
+    <div class="contact">
+        <h2>Contact us</h2>
+        <div class="links">
+            <span class="link-child"> 
+                <a href="https://hackclub.com/">Webstite</a>
+            </span>
+             
+            <span class="link-child">
+                <a href="https://hackclub.com/philosophy/">Philosophy</a>
+            </span>
+
+
+            <span class="link-child"> 
+                <a href="https://www.linkedin.com/company/hackclubrit/about/"> LinkedIn</a>
+            </span>
+
+        </div> 
+    </div>
+</footer>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+body{
+    margin: 0;
+    background-color: #1a1a1d;
+    color: #c3073f;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bolder;
+}
+
+
+
+.logo-image{
+    margin-left: 3rem;
+}
+.mainlogo{
+    font-size: 2rem;
+    margin-top: 12rem;
+    text-align: center;  
+}
+
+.divider{
+    margin-top: 20rem;
+    height: .3rem;
+    width: auto;
+    background-color:orangered;
+}
+
+.about{
+    text-align: center; 
+    
+    margin-top: 10rem;
+    padding: 5rem;
+    font-size: 2rem;
+}
+.info{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-left: 10%;
+}
+.infobox{
+    
+    padding: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+    background-color: rgb(32, 28, 28);
+    color: #c3073f;
+    height: 250px;
+    width: 250px;
+}
+
+.infobox:hover{
+    background-color:#c3073f ;
+    /* color:  rgb(32, 28, 28); */
+    color: whitesmoke;
+}
+
+footer{
+    margin-top: 6rem;
+    text-align: center;
+    background-color: #c3073f;
+    color: whitesmoke;
+    height: 300px;
+}
+.contact{
+    padding: 4rem;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.link-child{
+    padding: 2rem;
+}
+</style>
+</html>
